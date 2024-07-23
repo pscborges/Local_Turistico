@@ -9,7 +9,7 @@
 }
 
 body {
-    
+    /* width: 1280px; */
     background-color: #F5F4F0; 
 }
 
@@ -20,7 +20,7 @@ main {
 .container {
     width: 1120px;
     height: 729px;
-    margin: 88px 80px;
+    margin: 88px auto;
     border-radius: 28px;
 
 }
@@ -61,13 +61,37 @@ h5 {
    text-align: center;
    margin-bottom: 40px;
 }
+
+#firsth4 {
+    margin-top: 64px;
+}
+
 #firsth2 {
     margin-bottom: 8px;
-    font-size: 32px;
+    font-size: 28px;
 }
 #secondp {
     /* font-style: italic; */
     text-align: left;
     font-size: 16px;
     margin-bottom: 64px;
+}
+#secondh2 {
+    margin-bottom: 8px;
+    font-size: 28px;
+}
+
+
+    
+
+ol li {
+    font-size: 16px;
+    /* font-weight: bold; */
+    
+}
+
+#firstitem {
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 40px;
 }
